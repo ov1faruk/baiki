@@ -1,0 +1,107 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .profile-info p {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .profile-info button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14c99c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .profile-info button:hover {
+    background-color: #299229;
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .profile-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form input[type="text"], 
+  .profile-form input[type="email"], 
+  .profile-form input[type="tel"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-form input[type="text"]:focus, 
+  .profile-form input[type="email"]:focus, 
+  .profile-form input[type="tel"]:focus {
+    background-color: #333;
+  }
+  
+  .profile-form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14c99c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .profile-form button[type="submit"]:hover {
+    background-color: #299229;
+  }
+  
+  .message {
+    text-align: center;
+    color: #fff;
+  }
+  .edit-profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .profile {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ce2830;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .profile:hover {
+    background-color: #c50000;
+  }
+  

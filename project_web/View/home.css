@@ -1,0 +1,176 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.shoe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 20px;
+  transition: transform .2s;
+}
+
+.product h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.product p {
+  margin: 0;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.logout {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e7232d;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.cart {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #14c99c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.message {
+  text-align: center;
+  color: #fff;
+}
+
+.button:hover,
+.cart:hover {
+  background-color: #299229;
+}
+
+.logout:hover {
+  background-color: #c50000;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+/* Search bar */
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color .2s;
+}
+
+input[type="text"]:focus {
+  background-color: #333;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #14c99c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #299229;
+}
+
+/* Filter buttons */
+#filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#filter-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+#filter-buttons button.active {
+  background-color: #14c99c;
+}
+
+#filter-buttons button:hover {
+  background-color: #333;
+}
+
+/* View profile button */
+.profile {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ce2830;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.profile:hover {
+  background-color: #c50000;
+}
+
+/* Move view profile button to the center */
+#view-profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

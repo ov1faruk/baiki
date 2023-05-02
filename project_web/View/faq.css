@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li:nth-child(odd) {
+  font-weight: bold;
+}

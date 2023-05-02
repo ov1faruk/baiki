@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .shoe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .shoe {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #333;
+  }
+  
+  .shoe h3 {
+    margin-top: 0;
+  }
+  
+  .shoe p {
+    margin: 10px 0;
+  }
+  
+  .shoe button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ce2830;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .shoe button:hover {
+    background-color: #c50000;
+  }
+  
+  .total-price {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .actions a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14c99c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .actions button:hover {
+    background-color: #299229;
+  }
+  button[name="checkout"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #14c99c; /* Green */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  button[name="checkout"]:hover {
+    background-color: #299229; /* Darker green on hover */
+  }
+  
